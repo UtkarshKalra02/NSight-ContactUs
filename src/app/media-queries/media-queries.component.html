@@ -1,0 +1,30 @@
+
+<div class="container">
+    <div class="form-container">
+        <div class="line">
+            
+        </div>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="name-controls">
+                <input formControlName="firstName" placeholder="First Name">
+                <input formControlName="lastName" placeholder="Last Name">
+            </div>
+            <div class="controls">
+                <input formControlName="email" type="email" placeholder="Email">
+            </div>
+            <div class="controls">
+                <input formControlName="phone" type="tel" placeholder="08123456789">
+            </div>
+            <div class="controls">
+                <input formControlName="organization" placeholder="Organization">
+            </div>
+            <div class="controls">
+                <textarea formControlName="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit">Talk to our Media Team</button>
+        </form>
+    </div>
+
+</div>
+
+<router-outlet></router-outlet>

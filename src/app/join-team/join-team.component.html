@@ -1,0 +1,33 @@
+    <div class="form-container">
+        <div class="line">
+            
+        </div>
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div class="name-controls">
+                <input formControlName="fullName" placeholder="Full Name">
+                <input formControlName="email" placeholder="Email">
+            </div>
+            <div class="name-controls">
+                <input formControlName="phone" placeholder="081234 56789">
+                <select formControlName="skill">
+                    <option value="Skill1">Skill 1</option>
+                    <option value="Skill2">Skill 2</option>
+                </select>
+            </div>
+            <div class="name-controls">
+                <input formControlName="experience" type="text" placeholder="Experience(In years)">
+                <input formControlName="linkedin" type="text" placeholder="LinkedIn Url">
+            </div>
+            <div class="upload">
+                
+                <h3>Upload CV</h3>
+                <label for="cv">Choose File</label>
+                <input id="cv" formControlName="cv" type="file"  class="custom-upload" placeholder="Please Upload a CV"/>
+            </div>
+            <button type="submit">Submit Resume</button>
+        </form>
+    </div>
+
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,106 @@
+.container {
+    display: flex;
+    padding: 3.47vw;
+}
+
+.form-container {
+
+    margin-top: -16.5vw;
+    padding-left: 28vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.47vw;
+    padding-right: 2.43vw;
+    width: 57%;
+    padding-bottom: 5vw;
+}
+
+.name-controls {
+    display: flex;
+    column-gap: 5vw;
+    overflow: hidden;
+    padding-bottom: 2vw;
+}
+
+
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.347vw;
+    font-size: 1.11vw;
+    padding-bottom: 2vw;
+}
+
+
+
+input,
+textarea,
+select {
+    padding: 0.69vw;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 1.2vw;
+    border-bottom: 0.069vw solid white;
+    width: 100%;
+}
+
+
+button {
+    padding: 1vw;
+    border: 0.069vw solid white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+    color: #fff;
+    background: transparent;
+    width: fit-content;
+    margin-left: 18vw;
+    margin-top: 3.47vw;
+    font-size: 1.38vw;
+}
+
+button:hover {
+    font-size: 1.5vw;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.upload input[type="file"] {
+    display: none;
+
+}
+
+
+.upload label{
+    color: #8c8989;
+    cursor: pointer;
+    text-decoration: underline;
+    border: dotted 0.069vw #8c8989;
+    display: block;
+    padding-top: 2vw;
+    padding-left: 22vw;
+    padding-bottom: 2vw;
+}
+
+.line {
+    width: 0.069vw;
+    background-color: #ccc;
+    display: flex;
+    height:25vw;
+    margin-left: -5vw;
+}
+
+form{
+    margin-top: -28.5vw;
+}

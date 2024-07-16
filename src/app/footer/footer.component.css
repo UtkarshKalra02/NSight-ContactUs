@@ -1,0 +1,51 @@
+.group{
+    background: #1E2222;
+    padding: 2.708vw 14.03vw 2.23vw 7.29vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.group-1 img{
+    height: 3.75vw;
+    width: 17.1vw;
+}
+
+.group-2{
+    display: flex;
+    align-items: center;
+}
+
+.group-2 p{
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 1.38vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 3.194vw;
+}
+
+.group-3{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5.55vw;
+}
+.intel{
+    height: 2.34vw;
+}
+
+.track{
+    height: 2.34vw;
+}
+
+.tech{
+    height: 1.1vw;
+    margin-top: 0.6vw;
+}
+
+
+
+

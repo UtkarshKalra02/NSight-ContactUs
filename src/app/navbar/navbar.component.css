@@ -1,0 +1,61 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav img{
+    width: 11.8%;
+    height: 0.3%;
+    margin-top: 1.57%;
+}
+
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+
+.nav li{
+    margin-left: 3vw;
+    margin-top: 4%;
+    font-size: 1.3vw;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.search{
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.search input::-webkit-input-placeholder{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3vw;
+    color: white;
+
+}
+
+.search input{
+    border: none;
+    background-color: black;
+    height: 2.5vh;
+    width: 8vw;
+    color: white;
+}
+
+.search img{
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: 1vw;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+
+  

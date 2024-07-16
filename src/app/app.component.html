@@ -1,0 +1,33 @@
+<div class="container">
+  <app-navbar>
+  </app-navbar>
+</div>
+
+<div class="bgimg">
+  <img src="/assets/bg.svg" />
+</div>
+
+<div class="form">
+  <div class="invisible">
+    Hello
+  </div>
+  <div class="Heading">
+    <h1>Get In Touch With Us</h1>
+    <h2>For more information about our products and services, please feel free to drop us an email. Our <br>
+      team is always here to help you. Do not hesitate!</h2>
+  </div>
+  <div class="sidebar">
+    
+    <p [ngClass]="{ 'active-tab': activeRoute.includes('request') }" (click)="changeTab('request-services')" ><a routerLink='/request-for-services'>Request for services</a></p>
+    <p (click)="changeTab('join-team')" [ngClass]="{ 'active-tab': activeRoute.includes('join') }"><a routerLink='/join-our-team'>Join our team</a></p>
+    <p (click)="changeTab('media-queries')" [ngClass]="{ 'active-tab': activeRoute.includes('media-queries') }"><a routerLink='/media-queries'>Media queries</a></p>
+    
+
+    <router-outlet></router-outlet>
+  </div>
+  
+</div>
+
+<div class="footer">
+  <app-footer></app-footer>
+</div>

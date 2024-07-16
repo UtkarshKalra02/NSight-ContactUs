@@ -1,0 +1,112 @@
+
+.container {
+    display: flex;
+    padding: 3.47vw;
+}
+
+.sidebar {
+    
+    flex: 1;
+    padding-right: 10vw;
+    border-right: 0.2vw solid #ffffff;
+}
+
+.sidebar p {
+    margin: 3vw 0;
+    font-size: 1.7vw;
+}
+
+.sidebar p:first-child {
+    border-bottom: 0.069vw solid #ec1c23;
+    padding-bottom: 1.21vh;
+    width: 16vw;
+}
+
+.form-container {
+
+    margin-top: -20vw;
+    padding-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3.47vw;
+    padding-right: 2.43vw;
+    width: 100%;
+}
+
+.name-controls{
+    display: flex;
+    column-gap: 4vw;
+    overflow: hidden;
+    padding-bottom: 2vw;
+}
+
+
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.347vw;
+    font-size: 1.11vw;
+    padding-bottom: 2vw;
+}
+
+
+
+input, textarea {
+    padding: 0.69vw;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-size: 1.2vw;
+    width: 100%;
+    border-bottom: 0.069vw solid white;
+}
+
+
+button {
+    padding: 1vw;
+    border: 0.069vw solid white;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+    color: #fff;
+    background: transparent;
+    width: fit-content;
+    margin-left: 18vw;
+    margin-top: 3.47vw;
+    font-size: 1.38vw;
+}
+
+button:hover {
+    font-size: 1.5vw;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.line {
+    width: 0.069vw;
+    background-color: #ccc;
+    display: flex;
+    height: 25vw;
+    margin-left: 15vw;
+    margin-top: -20vw;
+   
+}
+
+form{
+   margin-left: -15vw;
+}
+
+span{
+    color: red;
+}
+
+.validator{
+    font-size: 0.68vw;
+}
